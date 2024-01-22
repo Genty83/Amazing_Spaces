@@ -172,6 +172,7 @@ span {
     justify-content: center;
     gap: 1em;
     padding: 1em;
+    font-size: 0.8rem;
 }
 .footer-middle-left,
 .footer-middle-center,
@@ -211,6 +212,28 @@ span {
     background: center / cover no-repeat;
 }
 
+/* -- Banner Styling -- */
+.banner-container {
+    background-color: var(--secondary-two);
+    height: 50vh;
+    padding: 5px;
+}
+.banner-content {
+    background-color: rgba(255,255,255,.8);
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 2rem;
+    left: 10%;
+    top: 0%;
+    text-align: center;
+}
+
 /* ------------------------------------------------------------------------  Home Page */
 /* -- Main Container -- */
 .container{
@@ -242,7 +265,12 @@ span {
 }
 
 /* --------------------------------------------------------------------- Services Page */
-
+#services-banner-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/services-banner.jpeg);
+    position: relative;
+}
 
 /* ------------------------------------------------------------------------ About Page */
 
@@ -281,10 +309,16 @@ span {
     .footer-middle-left {
         grid-column: 2;
     }
-    
     .footer-bottom {
         grid-column: 1 / 6;
         grid-row: 3;
+    }
+    /* -- Banner Styling -- */
+    .banner-container {
+        margin: 0 20%;
+    }
+    .banner-content {
+        width: 50%;
     }
 }
 
@@ -293,5 +327,9 @@ span {
     /* -- Main Section Container -- */
     .main-content-container {
         padding: 0 20%;
+    }
+    /* -- Banner Styling -- */
+    .banner-content {
+        width: 30%;
     }
 }
