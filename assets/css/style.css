@@ -273,7 +273,12 @@ span {
 }
 
 /* ------------------------------------------------------------------------ About Page */
-
+#about-banner-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/about-banner.jpg);
+    position: relative;
+}
 
 /* --------------------------------------------------------------------- Brochure Page */
 
