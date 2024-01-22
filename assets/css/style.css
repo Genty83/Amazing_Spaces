@@ -45,7 +45,50 @@ span {
 }
 
 /* ----------------------------------------------------------------- Side Menu Styling */
-
+#side-menu {
+    background-color: var(--secondary-two);
+    color: var(--primary-one);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    transition: 1s;
+    z-index: 3000;
+}
+#side-menu i {
+    font-size: 0.7rem;
+    cursor: pointer;
+    transition: 1s;
+}
+#side-menu i:hover {
+    color: var(--primary-two);
+}
+#side-menu > div:nth-child(1) {
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#side-menu > div:nth-child(2) {
+    padding: 1em;
+    display: grid;
+    gap: 0.5em;
+}
+#side-menu > div:nth-child(2) a {
+    text-decoration: none;
+    color: var(--primary-one);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    transition: 1.5s;
+    padding: 0.5em;
+}
+#side-menu > div:nth-child(2) a:hover {
+    color: var(--secondary-two);
+    background-color: rgba(255,255,255,.8);
+}
 
 /* ------------------------------------------------------------- Header/To Nav Styling */
 .header-container {
