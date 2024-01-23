@@ -1,15 +1,17 @@
 /* ---------------------------------------------------------------- Google Font Imports*/
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sevillana&display=swap');
+/* =================================================================================== */
 
-/* -------------------------------------------------------------------- Root Variables */
+/* ==================================================================== Root Variables */
 :root {
     --primary-one: #F7F1F0;
     --primary-two: #C3A6A0;
     --secondary-one: #A15C38;
     --secondary-two: #262220;
 }
+/* =================================================================================== */
 
-/* --------------------------------------------------------------------- Global Styles */
+/* ====================================================================== Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -26,8 +28,9 @@ img {
 span {
     color: var(--secondary-one);
 }
+/* =================================================================================== */
 
-/* -------------------------------------------------------------------- Button Styling */
+/* ==================================================================== Button Styling */
 .btn-lg {
     width: 10rem;
     height: 3rem;
@@ -43,8 +46,9 @@ span {
 .btn:hover {
     background-color: black;
 }
+/* =================================================================================== */
 
-/* ----------------------------------------------------------------- Side Menu Styling */
+/* ================================================================= Side Menu Styling */
 #side-menu {
     background-color: var(--secondary-two);
     color: var(--primary-one);
@@ -89,8 +93,9 @@ span {
     color: var(--secondary-two);
     background-color: rgba(255,255,255,.8);
 }
+/* =================================================================================== */
 
-/* ------------------------------------------------------------- Header/To Nav Styling */
+/* ============================================================= Header/To Nav Styling */
 .header-container {
     background-color: #ffffff;
     position: sticky;
@@ -147,7 +152,9 @@ span {
 .menu-icon:hover {
     color: var(--secondary-one);
 }
-/* -------------------------------------------------------------------- Footer Styling */
+/* =================================================================================== */
+
+/* ==================================================================== Footer Styling */
 .footer-container {
     display: grid;
     gap: 1em;
@@ -192,9 +199,9 @@ span {
     background-color: var(--secondary-one);
     width: 100%;
 }
+/* =================================================================================== */
 
-
-/* ------------------------------------------------------------  Banner Global Styling */
+/* ============================================================  Banner Global Styling */
 .hero-content {
     background-color: rgba(255,255,255,.8);
     position: absolute;
@@ -233,8 +240,9 @@ span {
     top: 0%;
     text-align: center;
 }
+/* =================================================================================== */
 
-/* ------------------------------------------------------------------------  Home Page */
+/* ========================================================================  Home Page */
 /* -- Main Container -- */
 .container{
     display: block;
@@ -263,8 +271,9 @@ span {
     place-items: center;
     gap: 1em;
 }
+/* =================================================================================== */
 
-/* --------------------------------------------------------------------- Services Page */
+/* ===================================================================== Services Page */
 #services-banner-img {
     width: 100%;
     height: 100%;
@@ -281,20 +290,241 @@ span {
     place-items: center;
     gap: 1em;
 }
+/* =================================================================================== */
 
-/* ------------------------------------------------------------------------ About Page */
+/* ======================================================================== About Page */
 #about-banner-img {
     width: 100%;
     height: 100%;
     background-image: url(../images/about-banner.jpg);
     position: relative;
 }
+.about-main-content-container {
+    display: grid;
+    gap: 1em;
+    margin: 5%;
+}
+.about-main-content-container > div {
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+/* =================================================================================== */
 
-/* --------------------------------------------------------------------- Brochure Page */
+/* ===================================================================== Brochure Page */
 
+/* =================================================================================== */
 
+/* -===================================================================== Form Styling */
+.std-form {
+    background-color: var(--primary-one);
+    color: var(--secondary-two);
+    display: grid;
+    align-items: center;
+    gap: 1em;
+}
+.std-form h2 {
+    text-align: center;
+}
+.form-banner {
+    background-color: var(--secondary-one);
+    color: var(--primary-one);
+    display: grid;
+    place-items: center;
+    text-align: center;
+    min-height: 40px;
+    padding: 0.5em;
+}
+.form-content {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+/* -- Custom Text Input -- */
+.textbox {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #ffffff;
+    color: var(--secondary-two);
+    padding-left: 0.5em;
+}
+.textbox::placeholder {
+    color: var(--secondary-two);
+}
+.textbox:focus {
+    box-shadow: 0 0 5px var(--primary-two);
+}
+/* -- Custom Checkbox -- */
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 0.9em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+.check-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.check-container input:checked ~ .checkmark {
+    background-color: var(--primary-two);
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.check-container .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* -- custom Select -- */
+.custom-select {
+    position: relative;
+    width: 100%;
+    margin-right: 1rem;
+}
+.custom-select[open] {
+    z-index: 1;
+}
+.custom-select summary {
+    padding: 1em;
+    cursor: pointer;
+    background-color: #ffffff;
+    list-style: none;
+}
+.custom-select summary::-webkit-details-marker {
+    display: none;
+}
+.custom-select[open] summary:before {
+    content: '';
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.custom-select summary:after {
+    content: '';
+    display: flex;
+    float: right;
+    width: .5rem;
+    height: .5rem;
+    border-bottom: 1px solid currentColor;
+    border-left: 1px solid currentColor;
+    border-bottom-left-radius: 2px;
+    transform: rotate(45deg) translate(50%, 0%);
+    transform-origin: center center;
+    transition: transform ease-in-out 100ms;
+}
+.custom-select summary:focus {
+    outline: none;
+}
+.custom-select[open] summary:after {
+    transform: rotate(-45deg) translate(0%, 0%);
+}
+.custom-select ul {
+    width: 100%;
+    background: var(--primary-one);
+    position: absolute;
+    top: calc(100% + .5rem);
+    left: 0;
+    padding: 1rem;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.custom-select li {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--primary-two);
+}
+.custom-select li:first-child {
+padding-top: 0;
+}
+.custom-select li:last-child {
+padding-bottom: 0;
+border-bottom: none;
+}
+/* FAKE SELECT */
+.custom-select summary.radios {
+    counter-reset: radios;
+}
+.custom-select summary.radios:before {
+    content: var(--selection);
+}
+.custom-select input[type=radio] {
+    counter-increment: radios;
+    appearance: none;
+    display: none;
+}
+.custom-select input[type=radio]:checked {
+    display: inline;
+    --display: block;
+}
+.custom-select input[type=radio]:after {
+    content: attr(title);
+    display: inline;
+    font-size: 1rem;
+}
+.custom-select ul.list {
+    counter-reset: labels;
+}
+.custom-select label {
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.custom-select label span {
+    --display: none;
+    display: var(--display);
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid var(--primary-two);
+    border-radius: 3px;
+}
+/* -- Form Btn -- */
+/* =================================================================================== */
 
-/* --------------------------------------------------------------------- Media Queries */
+/* ===================================================================== Media Queries */
 /* -- Sizes less than 50rem -- */
 @media all and (max-width: 50rem) {
     .top-nav {
@@ -367,3 +597,4 @@ span {
         margin: 5% 20%;
     }
 }
+/* =================================================================================== */
