@@ -501,7 +501,7 @@ border-bottom: none;
 .custom-select input[type=radio]:after {
     content: attr(title);
     display: inline;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .custom-select ul.list {
     counter-reset: labels;
@@ -522,6 +522,9 @@ border-bottom: none;
     border-radius: 3px;
 }
 /* -- Form Btn -- */
+#form-btn {
+    width: 100%;
+}
 /* =================================================================================== */
 
 /* ===================================================================== Media Queries */
@@ -579,6 +582,15 @@ border-bottom: none;
         grid-column: 1;
         grid-row: 3;
     }
+    /* -- About Page -- */
+    .about-main-content-container {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        margin: 5% 10%;
+    }
+    .about-main-content-area-3 {
+        grid-column: 2;
+        grid-row: 2;
+    }
 }
 
 /* -- Sizes greater than 90rem -- */
@@ -593,7 +605,10 @@ border-bottom: none;
     }
     /* -- Services Page -- */
     .services-main-content-container {
-        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        margin: 5% 20%;
+    }
+    /* -- About Page -- */
+    .about-main-content-container {
         margin: 5% 20%;
     }
 }
