@@ -28,6 +28,10 @@ img {
 span {
     color: var(--secondary-one);
 }
+iframe {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
 /* =================================================================================== */
 
 /* ==================================================================== Button Styling */
@@ -309,6 +313,10 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1em;
+}
+.location-div {
+    display: flex;
     gap: 1em;
 }
 /* =================================================================================== */
