@@ -305,8 +305,10 @@ span {
     margin: 5%;
 }
 .about-main-content-container > div {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
 }
 /* =================================================================================== */
