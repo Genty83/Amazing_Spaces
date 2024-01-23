@@ -1,8 +1,11 @@
-// 
+// ============================== Module Notes ================================
+//
+// Module contains function for opening and closing side menu
+//
+// ============================================================================
 
 
 const navBar = document.getElementById("side-menu")
-
 
 // Open/Close Side menu
 function openCloseSideMenu() {
