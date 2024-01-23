@@ -271,6 +271,16 @@ span {
     background-image: url(../images/services-banner.jpeg);
     position: relative;
 }
+.services-main-content-container {
+    display: grid;
+    gap: 1em;
+    padding: 1em;
+}
+.services-main-content-container > div {
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
 
 /* ------------------------------------------------------------------------ About Page */
 #about-banner-img {
@@ -325,6 +335,20 @@ span {
     .banner-content {
         width: 50%;
     }
+
+    /* -- Services Page -- */
+    .services-main-content-container {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        margin: 5% 10%;
+    }
+    .services-main-area-2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .services-main-area-6 {
+        grid-column: 1;
+        grid-row: 3;
+    }
 }
 
 /* -- Sizes greater than 90rem -- */
@@ -336,5 +360,10 @@ span {
     /* -- Banner Styling -- */
     .banner-content {
         width: 30%;
+    }
+    /* -- Services Page -- */
+    .services-main-content-container {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+        margin: 5% 20%;
     }
 }
