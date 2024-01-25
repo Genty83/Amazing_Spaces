@@ -101,7 +101,7 @@ iframe {
 }
 /* =================================================================================== */
 
-/* ============================================================= Header/To Nav Styling */
+/* ============================================================ Header/Top Nav Styling */
 .header-container {
     background-color: #ffffff;
     position: sticky;
@@ -211,7 +211,8 @@ iframe {
 }
 /* =================================================================================== */
 
-/* ============================================================  Banner Global Styling */
+/* =====================================================  Banner & Hero Global Styling */
+/* -- Hero Styling -- */
 .hero-content {
     background-color: rgba(255,255,255,.8);
     position: absolute;
@@ -392,7 +393,9 @@ iframe {
 .textbox:focus {
     box-shadow: 0 0 5px var(--primary-two);
 }
-/* -- Custom Checkbox -- */
+/* -- Custom Checkbox --
+** Code was taken from W3School example and slightly modified to fit site theme **
+*/
 .check-container {
     display: block;
     position: relative;
@@ -446,7 +449,10 @@ iframe {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-/* -- custom Select -- */
+/* -- custom Select -- 
+** Code was taken from W3School example and slightly modified to fit site theme **
+*/
+
 .custom-select {
     position: relative;
     width: 100%;
@@ -648,6 +654,7 @@ border-bottom: none;
         grid-column: 1 / 3;
         grid-row: 8;
     }
+    /* -- iframe -- */
     iframe {
         width: 300px;
         height: 300px;
@@ -672,6 +679,7 @@ border-bottom: none;
     .about-main-content-container {
         margin: 5% 20%;
     }
+    /* -- iframe -- */
     iframe {
         width: 400px;
         height: 400px;
