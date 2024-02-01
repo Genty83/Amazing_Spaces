@@ -93,7 +93,7 @@ Services | ![Desktop treatments wireframe image](README_images/services-desktop-
 About | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
 Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
 
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Features
@@ -174,7 +174,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 
 
 
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Technologies Used
@@ -215,7 +215,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Testing
@@ -368,31 +368,8 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
         
             - Clicking on the social media links will open the specific website on a new tab.
 
-    - Treatments Page
 
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
-
-    - Book Now Page
-
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
-        
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
-        
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
-
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Finished Product
@@ -401,7 +378,7 @@ Page | Desktop version | Mobile version
 --- | --- | ---
 
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Deployment
@@ -424,7 +401,7 @@ Page | Desktop version | Mobile version
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Credits 
@@ -444,7 +421,7 @@ Page | Desktop version | Mobile version
 
 * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implemented.
 
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
 
 ## Acknowledgements
@@ -455,5 +432,5 @@ Page | Desktop version | Mobile version
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
 
-[Back to top ⇧](#Amazing_Spaces)
+[Back to top ⇧](#Amazing Spaces)
 
