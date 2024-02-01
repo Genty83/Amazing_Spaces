@@ -209,6 +209,9 @@ iframe {
     background-color: var(--secondary-one);
     width: 100%;
 }
+.footer-bottom a {
+    font-size: 1.2rem;
+}
 /* =================================================================================== */
 
 /* =====================================================  Banner & Hero Global Styling */
