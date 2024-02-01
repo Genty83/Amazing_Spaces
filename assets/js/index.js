@@ -1,22 +1,25 @@
 // ============================== Module Notes ================================
 //
-// Module contains function for opening and closing side menu
+// Module contains function to change hero background
 //
 // ============================================================================
 
 
-const navBar = document.getElementById("side-menu")
+/* Function sourced from stack overflow */
+const imagesArray = [
+    "hero-1.jpg",
+    "hero-2.jpg",
+    "hero-3.jpg"
+    ]
+let currentIndex = 0
 
-// Open/Close Side menu
-function openCloseSideMenu() {
-    // Variables
-    let positionInfo = navBar.getBoundingClientRect()
-    let width = positionInfo.width
+// Function to change hero background image
+function changeHeroBackground() {
 
-    if (width > "0") {
-        navBar.style.width = "0px";
+    let hero = document.getElementById("hero-img")
+
+    currentIndex = (currentIndex + 1) % imagesArray.length;
+    hero.style.backgroundImage = `url(assets/images/${imagesArray[currentIndex]})`;
     }
-    else {
-        navBar.style.width = "250px";
-    }
-};
+
+setInterval(changeHeroBackground, 5000)
