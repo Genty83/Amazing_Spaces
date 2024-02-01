@@ -1,4 +1,4 @@
-# Amazing Spaces
+# Amazing-Spaces
 
 ![Amazing Spaces mockup images](README_images/mock-up.png)
 
@@ -93,7 +93,7 @@ Services | ![Desktop treatments wireframe image](README_images/services-desktop-
 About | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
 Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Features
@@ -174,7 +174,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 
 
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Technologies Used
@@ -369,7 +369,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
             - Clicking on the social media links will open the specific website on a new tab.
 
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Finished Product
@@ -378,7 +378,7 @@ Page | Desktop version | Mobile version
 --- | --- | ---
 
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Deployment
@@ -401,7 +401,7 @@ Page | Desktop version | Mobile version
 
     5. The page will refresh automatically and generate a link to your website.
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Credits 
@@ -432,5 +432,5 @@ Page | Desktop version | Mobile version
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
 
-[Back to top ⇧](#Amazing Spaces)
+[Back to top ⇧](#Amazing-Spaces)
 
