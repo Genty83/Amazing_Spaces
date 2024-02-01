@@ -227,7 +227,9 @@ iframe {
     text-align: center;
 }
 .img-container {
-    background: center / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* -- Banner Styling -- */
