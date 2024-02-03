@@ -89,15 +89,11 @@ The main font used in the site is Instrument, with Sans Serif as the fallback fo
 Page | Desktop Version | Mobile Version
 --- | --- | ---
 Index | ![Desktop index wireframe image](README_images/Homepage-desktop-layout.png) | ![Mobile index wireframe image](README_images/Homepage-mobile-layout.png)
-Services | ![Desktop treatments wireframe image](README_images/services-desktop-layout.png) | ![Mobile treatments wireframe image](README_images/services-mobile-layout.png)
-About | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
-Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wireframe image]()
+Services | ![Desktop services wireframe image](README_images/services-desktop-layout.png) | ![Mobile services wireframe image](README_images/services-mobile-layout.png)
+About | ![Desktop about wireframe image]() | ![Mobile about wireframe image]()
+Request Brochure | ![Desktop request brochure image](README_images/brochure-desktop-wireframe.png) | ![Mobile request brochure image](README_images/brochure-mobile-wireframe.png)
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-[Back to top ⇧](#Amazing_Spaces)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
 
 ## Features
@@ -161,28 +157,24 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 ![Contact Us Image](README_images/contact-us-section.png)
 
     - This section contains an image of a man being contacted and the contact us form itself.
-    
+
 
 
 ### Request Brochure Page
  
 * **Request Brochure Banner**
-![Banner image](assets/readme-files/book-now-form.png)
+![Banner image](README_images/brochure-banner.png)
 
-    - The form allows the customer to book the desired treatment on a specific date directly from the business' website.
+    - The brochure page banner shows a catchy image of a modern open planned kitchen.
 
-* **Find Us Section**
-![Find us section image](assets/readme-files/find-us.png)
+* **Brochure Form Section**
+![Brochure Form image](README_images/brochure-form.png)
 
-    - This section displays a Google map of the business' geographical location. This allows the customers to easily find the location from their devices.
+    - The Request a new brochure form contains text inputs for adding your contact information, custom checkboxes to select an option to download the brochure or recieve by post and custom comboboxes to select the project type and budget.
 
 
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-[Back to top ⇧](#Amazing_Spaces)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
 
 ## Technologies Used
@@ -190,6 +182,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JS)
 
 ### Frameworks, Libraries and Programs Used
 
@@ -223,7 +216,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
     - W3C CSS Validator was used to validate the CSS code.
 
-[Back to top ⇧](#pura-vida-spa)
+[Back to top ⇧](#Amazing-Spaces)
 
 
 ## Testing
@@ -278,19 +271,19 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 
     - **Landing Page**
 
-    ![Lighthouse report for landing page image]()
+    ![Lighthouse report for landing page image](README_images/homepage-lighthouse.png)
 
     - **Services Page**
 
-    ![Lighthouse report for services page image]()
+    ![Lighthouse report for services page image](README_images/services-page-lighthouse.png)
 
     - **About Page**
 
-    ![Lighthouse report for book now page image]()
+    ![Lighthouse report for book now page image](README_images/about-page-lighthouse.png)
 
     - **Request Brochure Page**
 
-    ![Lighthouse report for book now page image]()
+    ![Lighthouse report for book now page image](README_images/brochure-page-lighthouse.png)
 
 ### Tools Testing
 
@@ -378,33 +371,7 @@ Request Brochure | ![Desktop book now wireframe image]() | ![Mobile book now wir
 
     - Treatments Page
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-        - Hovering on the book button link on each treatment section will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking on the book button link on each treatment section will bring the customer to the book now page.
-
-    - Book Now Page
-
-        - When filling out the book now form, the customer is required to complete all fields before submitting.
-        
-        - Hovering over the book button will trigger hover effect, highlighting the button for the customer.
-
-        - Clicking and dragging on the map in the find us section will move the area shown on the map. 
-        
-        - Clicking the plus and minus buttons changes the zoom of the map.
-
-    - 404 Error Page
-
-        - Entering an incorrect address into the address bar will bring the customer back to the 404 error page.
-
-        - Hovering on the homepage link will trigger hover effect, increasing the font size of the link's text.
-
-        - Clicking on the homepage link will bring the customer back to the landing page.
-
-[Back to top ⇧](#Amazing_Spaces)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
 
 ## Finished Product
@@ -413,11 +380,7 @@ Page | Desktop version | Mobile version
 --- | --- | ---
 
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-[Back to top ⇧](#pura-vida-spa)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
 
 ## Deployment
@@ -440,11 +403,7 @@ Page | Desktop version | Mobile version
 
     5. The page will refresh automatically and generate a link to your website.
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-[Back to top ⇧](#Amazing_Spaces)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
 
 ## Credits 
@@ -475,9 +434,5 @@ Page | Desktop version | Mobile version
 
 * Code Institute and its amazing Slack community for their support and providing me with the necessary knowledge to complete this project.
 
-<<<<<<< HEAD
 [Back to top ⇧](#Amazing-Spaces)
-=======
-[Back to top ⇧](#Amazing_Spaces)
->>>>>>> 56dcb485ec6ced2a1457faf49fe1718ec852f58e
 
