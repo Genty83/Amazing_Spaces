@@ -315,7 +315,7 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
 
         - **Mozilla Firefox**
         
-        There was and issue with the appearance of the book buttons on the treatments page expanding all the width. This issue was corrected by changing the width property value from "fit-content" to "max-content".
+        No appearance, responsiveness nor functionality issues.
         
         No responsiveness nor functionality issues.
 
@@ -422,6 +422,8 @@ Page | Desktop version | Mobile version
 ### Code
 
 * [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) were consulted on a regular basis for inspiration and sometimes to be able to better understand the code being implemented.
+
+* 
 
 [Back to top ⇧](#Amazing_Spaces)
 
