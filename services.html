@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="description" content="Services page, page contains information on the services the company provide">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title Tag -->
     <title>Amazing Spaces - Services</title>
+    <!-- Link Tags -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Scripts Tags -->
     <script src="assets/js/button_clicks.js" defer></script>
 </head>
 <body>
+
     <!-- Side Navigation Menu -->
     <aside id="side-menu">
         <div>
             <h4>Amazing <span>Spaces</span></h4>
-            <i class="fa fa-arrow-left" title="Open Side Menu" onclick="openCloseSideMenu()"></i>
+            <i id="side-menu-close-icon" class="fa fa-arrow-left" title="Close Side Menu"></i>
         </div>
         <div>
             <a href="index.html">Home</a>
@@ -23,8 +28,11 @@
             <a href="brochure.html">Request Brochure</a>
         </div>
     </aside>
+    <!-- Side Navigation Menu End -->
+
     <!-- Main Container -->
     <div class="container">
+
         <!-- Header Container -->
         <header class="header-container">
             <div class="discount-banner">
@@ -40,9 +48,11 @@
                         <li><a href="brochure.html">Request Brochure</a></li>
                     </ul>
                 </nav>
-                <i class="menu-icon fa fa-navicon" title="Open Side Menu" onclick="openCloseSideMenu()"></i>
+                <i id="menu-icon" class="menu-icon fa fa-navicon" title="Open Side Menu"></i>
             </div>
         </header>
+        <!-- Header Container End -->
+
         <!-- Banner Container -->
         <section class="banner-container">
             <div id="services-banner-img" class="img-container">
@@ -55,8 +65,11 @@
                 </div>
             </div>
         </section>
+        <!-- Banner Container End -->
+
         <!-- Main Content Container -->
         <main class="services-main-content-container">
+
             <div class="services-main-area-1">
                 <h3>Amazing <span>Kitchen's</span></h3>
                 <p>
@@ -65,11 +78,19 @@
                     Our high end kitchens will arrive at your home ready to be expertly fitted and pained in any colour of your choosing. 
                     The end result is an expertly crafted kitchen, designed for you and built to last!
                 </p>
-                <button class="btn-lg btn" type="button" onclick="goToContactForm()">Contact Team Member</button>
             </div>
+
             <div class="services-main-area-2">
-                <img src="assets/images/modern-kitchen.jpg" alt="Modern Kitchen">
+                <div class="img-container">
+                    <img class="services-img" src="assets/images/modern-kitchen.jpg" alt="Modern Kitchen">
+                    <span>
+                        <p>
+                            Contact A Team Member
+                        </p>
+                    </span>
+                </div>
             </div>
+
             <div class="services-main-area-3">
                 <h3>Stunning <span>Bathroom's</span></h3>
                 <p>
@@ -79,11 +100,19 @@
                     We focus our efforts on your needs and requirements, 
                     keeping a consistently high level of communication and professionalism throughout the project, however big or small it may be.
                 </p>
-                <button class="btn-lg btn" type="button" onclick="goToContactForm()">Contact Team Member</button>
             </div>
+
             <div class="services-main-area-4">
-                <img src="assets/images/modern-bathroom.jpg" alt="Modern Bathroom">
+                <div class="img-container">
+                    <img src="assets/images/modern-bathroom.jpg" alt="Modern Bathroom">
+                    <span>
+                        <p>
+                            Contact A Team Member
+                        </p>
+                    </span>
+                </div>
             </div>
+
             <div class="services-main-area-5">
                 <h3>Wonderful <span>Bedroom's</span></h3>
                 <p>
@@ -93,11 +122,19 @@
                     Whether it's small and practical or spacious and indulgent, your bedroom is your inner sanctuary. 
                     We spend a third of our lives in bed, so start living the dream with Beautiful Spaces fitted bedroom furniture.
                 </p>
-                <button class="btn-lg btn" type="button" onclick="goToContactForm()">Contact Team Member</button>
             </div>
+
             <div class="services-main-area-6">
-                <img src="assets/images/modern-bedroom.jpg" alt="Modern Bedroom">
+                <div class="img-container">
+                    <img src="assets/images/modern-bedroom.jpg" alt="Modern Bedroom">
+                    <span>
+                        <p>
+                            Contact A Team Member
+                        </p>
+                    </span>
+                </div>
             </div>
+
             <div class="services-main-area-7">
                 <h3>Classy <span>Living Spaces</span></h3>
                 <p>
@@ -106,12 +143,22 @@
                     Our bespoke fitted living room furniture is expertly built in and crafted with elegance and sophistication as top priorities. 
                     We take pride in our meticulous attention to detail while creating bespoke furniture that suits your lifestyle.
                 </p>
-                <button class="btn-lg btn" type="button" onclick="goToContactForm()">Contact Team Member</button>
             </div>
+
             <div class="services-main-area-8">
-                <img src="assets/images/modern-lounge.jpg" alt="Modern Lounge">
+                <div class="img-container">
+                    <img src="assets/images/modern-lounge.jpg" alt="Modern Lounge">
+                    <span>
+                        <p>
+                            Contact A Team Member
+                        </p>
+                    </span>
+                </div>
             </div>
+
         </main>
+        <!-- Main Container End -->
+
         <!-- Footer Container -->
         <footer class="footer-container">
             <div class="footer-top">
@@ -147,6 +194,8 @@
                 <a href="https://www.linkedin.com" title="Link to linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
         </footer>
+        <!-- Footer Container End -->
+
     </div>
 </body>
 </html>
