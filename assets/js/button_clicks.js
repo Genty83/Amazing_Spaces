@@ -4,37 +4,49 @@
 //
 // ============================================================================
 
-const navBar = document.getElementById("side-menu")
+
+// Constants
+const sideMenu = document.getElementById("side-menu");
+const sideMenuCloseIcon = document.getElementById("side-menu-close-icon");
+const menuIcon = document.getElementById("menu-icon");
+const brochureBtn = document.getElementById("brochure-btn");
+const servicesImgs = document.querySelectorAll('.services-img-container');
 
 
 
-// Function to redirect to brochure form
-function goToBrochure() { 
 
-    brochurePath =  "brochure.html#brochure-form"
-
-    window.location = brochurePath;
-};
-
-// Function to redirect to contact form
-function goToContactForm() { 
-
-    brochurePath =  "about.html#contact-form"
-
-    window.location = brochurePath;
-};
+// Event listeners
+sideMenuCloseIcon.addEventListener("click", openCloseSideMenu);
+menuIcon.addEventListener("click", openCloseSideMenu);
+servicesImgs.forEach(img => {
+    img.addEventListener('click', function handleClick(event) {
+        redirectToElement("about.html#contact-form")
+    });
+});
+brochureBtn.addEventListener(
+    "click", (event) => redirectToElement("brochure.html#brochure-form"));
 
 
-// Open/Close Side menu
+
+// Function to redirect to another element
+function redirectToElement(path) {
+    window.location = path;
+}
+
+
+// Function to open and close the side navigation menu
 function openCloseSideMenu() {
+
     // Variables
-    let positionInfo = navBar.getBoundingClientRect()
+    let positionInfo = sideMenu.getBoundingClientRect()
     let width = positionInfo.width
 
+    /* Condition that checks the width of the side menu div.
+        Then resizes the div based on the if logic  */
     if (width > "0") {
-        navBar.style.width = "0px";
+        sideMenu.style.width = "0px";
     }
     else {
-        navBar.style.width = "250px";
+        sideMenu.style.width = "250px";
     }
 };
