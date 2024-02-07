@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="description" content="About page, page contains information about the company including the location
         and a contact form for requesting a meeting with a team member">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title Tag -->
     <title>Amazing Spaces - About</title>
+    <!-- Link Tags -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Scripts Tags -->
     <script src="assets/js/button_clicks.js" defer></script>
 </head>
 <body>
+
     <!-- Side Navigation Menu -->
     <aside id="side-menu">
         <div>
@@ -24,8 +29,11 @@
             <a href="brochure.html">Request Brochure</a>
         </div>
     </aside>
+    <!-- Side Navigation Menu End -->
+
     <!-- Main Container -->
     <div class="container">
+
         <!-- Header Container -->
         <header class="header-container">
             <div class="discount-banner">
@@ -44,6 +52,8 @@
                 <i id="menu-icon" class="menu-icon fa fa-navicon" title="Open Side Menu"></i>
             </div>
         </header>
+        <!-- Header Container End -->
+
         <!-- Banner Container -->
         <section class="banner-container">
             <div id="about-banner-img" class="img-container">
@@ -56,8 +66,11 @@
                 </div>
             </div>
         </section>
+        <!-- Banner Container End -->
+
         <!-- Main Content Container -->
         <main class="about-main-content-container">
+            <!-- Area 1 -->
             <div class="about-main-content-area-1">
                 <h3>Why <span>Us</span></h3>
                 <p>
@@ -68,9 +81,11 @@
                     They will work closely with you to create a totally unique bespoke room design that will suit your needs exactly.
                 </p>
             </div>
+            <!-- Area 2 -->
             <div class="about-main-content-area-2">
                 <img src="assets/images/design-team.jpg" alt="Designer planning">
             </div>
+            <!-- Area 3 -->
             <div class="about-main-content-area-3">
                 <h3>Contact <span>Us</span></h3>
                 <form  action="https://formdump.codeinstitute.net" method="POST" id="contact-form" class="std-form">
@@ -81,43 +96,49 @@
                     </div>
                     <h2>Please Fill Out The Form Details Below</h2>
                     <div class="form-content">
+                        <!-- Input Tags -->
                         <input id="fname" name="fname" class="textbox" type="text" aria-label="Enter First Name" placeholder="Enter First Name :" required>
                         <input id="lname" name="lname" class="textbox" type="text" aria-label="Enter Last Name" placeholder="Enter Last Name :" required>
                         <input id="phone-num" name="phone-num" class="textbox" type="text" aria-label="Enter Contact Number" placeholder="Enter Contact Number :" required>
                         <input id="email" name="email" class="textbox" type="text" aria-label="Enter Email" placeholder="Enter Email :" required>
+                        <!-- Custom Checkbox -->
                         <label class="check-container">Request Callback
                             <input id="check" name="check" type="checkbox">
                             <span class="checkmark"></span>
                         </label>
+                        <!-- Custom Select -->
                         <details class="custom-select">
                             <summary class="radios">
-                                <input type="radio" name="default" id="default" title="Select Team Member To Contact" checked>
-                                <input type="radio" name="item1" id="item1" title="John Doe">
-                                <input type="radio" name="item2" id="item2" title="Bill Plant">
-                                <input type="radio" name="item3" id="item3" title="Mary Joe">
+                                <input type="radio" name="select" id="default" title="Select Team Member To Contact" checked>
+                                <input type="radio" name="select" id="option-1" title="John Doe">
+                                <input type="radio" name="select" id="option-2" title="Bill Plant">
+                                <input type="radio" name="select" id="option-3" title="Mary Joe">
                             </summary>
                             <ul class="list">
                                 <li>
-                                <label for="item1">
+                                <label for="option-1">
                                     John Doe
                                     <span></span>
                                 </label>
                                 </li>
                                 <li>
-                                    <label for="item2">Bill Plant</label>
+                                    <label for="option-2">Bill Plant</label>
                                 </li>
                                 <li>
-                                    <label for="item3">Mary Joe</label>
+                                    <label for="option-3">Mary Joe</label>
                                 </li>
                             </ul>
                         </details>
                         <input id="form-btn" class="btn-lg btn" type="submit" value="Submit">
                     </div>
+
                 </form>
             </div>
+            <!-- Area 4 -->
             <div class="about-main-content-area-4">
                 <img src="assets/images/contact-us-img.jpg" alt="Main talking on a phone">
             </div>
+            <!-- Area 5 -->
             <div class="about-main-content-area-5">
                 <h3>Find <span>Us</span></h3>
                 <p>
@@ -133,6 +154,7 @@
                     <i class="fa fa-map-marker"></i><h5>Northampton</h5>
                 </div>
             </div>
+            <!-- Area 6 -->
             <div class="about-main-content-area-6">
                 <iframe 
                     title="Map Of Showroom Location" 
@@ -143,7 +165,10 @@
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
+
         </main>
+        <!-- Main Container End -->
+
         <!-- Footer Container -->
         <footer class="footer-container">
             <div class="footer-top">
@@ -179,6 +204,8 @@
                 <a href="https://www.linkedin.com" title="Link to linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
         </footer>
+        <!-- Footer Container End -->
+
     </div>
 </body>
 </html>
