@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta charset="UTF-8">
     <meta name="description" content="Request Brochure page, page contains a form for requesting the company brochure">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Amazing Spaces - About</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <script src="assets/js/button_clicks.js" defer></script>
 </head>
 <body>
@@ -23,8 +27,11 @@
             <a href="brochure.html">Request Brochure</a>
         </div>
     </aside>
+    <!-- Side Navigation Menu End -->
+
     <!-- Main Container -->
     <div class="container">
+
         <!-- Header Container -->
         <header class="header-container">
             <div class="discount-banner">
@@ -43,6 +50,8 @@
                 <i id="menu-icon" class="menu-icon fa fa-navicon" title="Open Side Menu"></i>
             </div>
         </header>
+        <!-- Header Container End -->
+
         <!-- Banner Container -->
         <section class="banner-container">
             <div id="brochure-banner-img" class="img-container">
@@ -54,6 +63,8 @@
                 </div>
             </div>
         </section>
+        <!-- Banner Container End -->
+
         <!-- Main Content Container -->
         <main class="brochure-main-content-container">
             <div class="brochure-main-content-area-1">
@@ -65,12 +76,12 @@
                     </div>
                     <h2>Please Fill Out The Form Details Below</h2>
                     <div class="brochure-form-content">
-                        <input id="fname" class="textbox" type="text" aria-label="Enter First Name" placeholder="Enter First Name :" required>
-                        <input id="lname" class="textbox" type="text" aria-label="Enter Last Name" placeholder="Enter Last Name :" required>
-                        <input id="num" class="textbox" type="text" aria-label="Enter Contact Number" placeholder="Enter Contact Number :" required>
-                        <input id="email" class="textbox" type="text" aria-label="Enter Email" placeholder="Enter Email :" required>
-                        <input id="address-1" class="textbox" type="text" aria-label="Address Line one" placeholder="Address Line :" required>
-                        <input id="address-2" class="textbox" type="text" aria-label="Address Line Two" placeholder="Address Line 2 :" required>
+                        <input id="fname" name="fname" class="textbox" type="text" aria-label="Enter First Name" placeholder="Enter First Name :" required>
+                        <input id="lname" name="lname" class="textbox" type="text" aria-label="Enter Last Name" placeholder="Enter Last Name :" required>
+                        <input id="num" name="num" name="" class="textbox" type="text" aria-label="Enter Contact Number" placeholder="Enter Contact Number :" required>
+                        <input id="email" name="email" class="textbox" type="text" aria-label="Enter Email" placeholder="Enter Email :" required>
+                        <input id="address-1" name="address-1" class="textbox" type="text" aria-label="Address Line one" placeholder="Address Line :" required>
+                        <input id="address-2" name="address-2" class="textbox" type="text" aria-label="Address Line Two" placeholder="Address Line 2 :" required>
                         <p>
                             How would you like to recieve your brochure?
                         </p>
@@ -88,48 +99,48 @@
                         <details class="custom-select">
                             <summary class="radios">
                                 <input type="radio" name="combo1" id="default" title="Project Type" checked>
-                                <input type="radio" name="combo1" id="item1" title="Kitchen">
-                                <input type="radio" name="combo1" id="item2" title="Bathroom">
-                                <input type="radio" name="combo1" id="item3" title="Bedroom">
-                                <input type="radio" name="combo1" id="item4" title="Lounge">
+                                <input type="radio" name="combo1" id="option-1" title="Kitchen">
+                                <input type="radio" name="combo1" id="option-2" title="Bathroom">
+                                <input type="radio" name="combo1" id="option-3" title="Bedroom">
+                                <input type="radio" name="combo1" id="option-4" title="Lounge">
                             </summary>
                             <ul class="list">
                                 <li>
-                                <label for="item1">
+                                <label for="option-1">
                                     Kitchen
                                     <span></span>
                                 </label>
                                 </li>
                                 <li>
-                                    <label for="item2">Bathroom</label>
+                                    <label for="option-2">Bathroom</label>
                                 </li>
                                 <li>
-                                    <label for="item3">Bedroom</label>
+                                    <label for="option-3">Bedroom</label>
                                 </li>
                                 <li>
-                                    <label for="item4">Lounge</label>
+                                    <label for="option-4">Lounge</label>
                                 </li>
                             </ul>
                         </details>
                         <details class="custom-select">
                             <summary class="radios">
                                 <input type="radio" name="combo2" id="default2" title="Estimated Budget" checked>
-                                <input type="radio" name="combo2" id="item-1" title="Less Than 20k">
-                                <input type="radio" name="combo2" id="item-2" title="Greater Than 20k">
-                                <input type="radio" name="combo2" id="item-3" title="Not Sure">
+                                <input type="radio" name="combo2" id="option-1" title="Less Than 20k">
+                                <input type="radio" name="combo2" id="option-2" title="Greater Than 20k">
+                                <input type="radio" name="combo2" id="option-3" title="Not Sure">
                             </summary>
                             <ul class="list">
                                 <li>
-                                    <label for="item-1">
+                                    <label for="option-1">
                                         Less Than 20k
                                         <span></span>
                                     </label>
                                 </li>
                                 <li>
-                                    <label for="item-2">Greater Than 20k</label>
+                                    <label for="option-2">Greater Than 20k</label>
                                 </li>
                                 <li>
-                                    <label for="item-3">Not Sure</label>
+                                    <label for="option-3">Not Sure</label>
                                 </li>
                             </ul>
                         </details>
@@ -141,6 +152,8 @@
                 <img src="assets/images/brochure-img.jpg" alt="Woen Reading Brochure">
             </div>
         </main>
+        <!-- Main Content Container End -->
+
         <!-- Footer Container -->
         <footer class="footer-container">
             <div class="footer-top">
@@ -176,6 +189,10 @@
                 <a href="https://www.linkedin.com" title="Link to linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
             </div>
         </footer>
+        <!-- Footer Container End -->
+
     </div>
+    <!-- Main Container End -->
+
 </body>
 </html>
