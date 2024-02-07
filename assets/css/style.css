@@ -166,9 +166,10 @@ iframe {
     text-decoration: none;
     color: var(--secondary-two);
     font-size: 0.9rem;
+    transition: 1s;
 }
 .footer-container a:hover {
-    color: grey;
+    color: #565656;
 }
 .vertical-div {
     height: 20px;
