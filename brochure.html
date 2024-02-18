@@ -68,7 +68,7 @@
         <!-- Main Content Container -->
         <main class="brochure-main-content-container">
             <div class="brochure-main-content-area-1">
-                <form action="#" id="brochure-form" class="std-form">
+                <form action="https://formdump.codeinstitute.net" method="POST" id="brochure-form" class="std-form">
                     <div class="form-banner">
                         <p>
                             Request your 2024 brochure and explore our latest design's!
@@ -96,54 +96,22 @@
                         <p>
                             Tell us more about your project (optional)
                         </p>
-                        <details class="custom-select">
-                            <summary class="radios">
-                                <input type="radio" name="combo1" id="default" title="Project Type" checked>
-                                <input type="radio" name="combo1" id="option-1" title="Kitchen">
-                                <input type="radio" name="combo1" id="option-2" title="Bathroom">
-                                <input type="radio" name="combo1" id="option-3" title="Bedroom">
-                                <input type="radio" name="combo1" id="option-4" title="Lounge">
-                            </summary>
-                            <ul class="list">
-                                <li>
-                                <label for="option-1">
-                                    Kitchen
-                                    <span></span>
-                                </label>
-                                </li>
-                                <li>
-                                    <label for="option-2">Bathroom</label>
-                                </li>
-                                <li>
-                                    <label for="option-3">Bedroom</label>
-                                </li>
-                                <li>
-                                    <label for="option-4">Lounge</label>
-                                </li>
-                            </ul>
-                        </details>
-                        <details class="custom-select">
-                            <summary class="radios">
-                                <input type="radio" name="combo2" id="default2" title="Estimated Budget" checked>
-                                <input type="radio" name="combo2" id="option-1" title="Less Than 20k">
-                                <input type="radio" name="combo2" id="option-2" title="Greater Than 20k">
-                                <input type="radio" name="combo2" id="option-3" title="Not Sure">
-                            </summary>
-                            <ul class="list">
-                                <li>
-                                    <label for="option-1">
-                                        Less Than 20k
-                                        <span></span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label for="option-2">Greater Than 20k</label>
-                                </li>
-                                <li>
-                                    <label for="option-3">Not Sure</label>
-                                </li>
-                            </ul>
-                        </details>
+
+                        <select class="combobox" name="contact-member" id="contact-member">
+                            <option value="" disabled selected>Project Type</option>
+                            <option value="Kitchen">Kitchen</option>
+                            <option value="Bathroom">Bathroom</option>
+                            <option value="Bedroom">Bedroom</option>
+                            <option value="Lounge">Lounge</option>
+                        </select>
+
+                        <select class="combobox" name="contact-member" id="contact-member">
+                            <option value="" disabled selected>Budget</option>
+                            <option value="Less Than 20k">Less Than 20k</option>
+                            <option value="Greater Than 20k">Greater Than 20k</option>
+                            <option value="Not Sure">Not Sure</option>
+                        </select>
+
                         <input id="form-btn" class="btn-lg btn" type="submit" value="Submit">
                     </div>
                 </form>
