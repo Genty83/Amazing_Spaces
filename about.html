@@ -72,7 +72,7 @@
         <main class="about-main-content-container">
             <!-- Area 1 -->
             <div class="about-main-content-area-1">
-                <h3>Why <span>Us</span></h3>
+                <h3>Why <span>Us?</span></h3>
                 <p>
                     No two rooms at Beautiful Designs are the same. 
                     Each of our rooms are designed and made to order to the exact requirements of our clients. 
@@ -106,29 +106,14 @@
                             <input id="check" name="check" type="checkbox">
                             <span class="checkmark"></span>
                         </label>
-                        <!-- Custom Select -->
-                        <details class="custom-select">
-                            <summary class="radios">
-                                <input type="radio" name="select" id="default" title="Select Team Member To Contact" checked>
-                                <input type="radio" name="select" id="option-1" title="John Doe">
-                                <input type="radio" name="select" id="option-2" title="Bill Plant">
-                                <input type="radio" name="select" id="option-3" title="Mary Joe">
-                            </summary>
-                            <ul class="list">
-                                <li>
-                                <label for="option-1">
-                                    John Doe
-                                    <span></span>
-                                </label>
-                                </li>
-                                <li>
-                                    <label for="option-2">Bill Plant</label>
-                                </li>
-                                <li>
-                                    <label for="option-3">Mary Joe</label>
-                                </li>
-                            </ul>
-                        </details>
+                        <!--  Select -->
+                        <select class="combobox" name="contact-member" id="contact-member">
+                            <option value="" disabled selected>Team Member</option>
+                            <option value="John Doe">John Doe</option>
+                            <option value="Bill Plant">Bill Plant</option>
+                            <option value="Mary Joe">Mary Joe</option>
+                        </select>
+                        <!-- Submit Btn -->
                         <input id="form-btn" class="btn-lg btn" type="submit" value="Submit">
                     </div>
 
