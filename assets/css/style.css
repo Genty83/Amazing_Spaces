@@ -17,7 +17,7 @@
     font-family: "Instrument Serif", serif;
 }
 h1, h2, h3 {
-    font-family: "Sevillana", cursive;
+    font-family: "Instrument Serif", serif;
 }
 img {
     display: block;
@@ -206,7 +206,7 @@ iframe {
     font-size: 1.2rem;
 }
 .footer-content-heading {
-    font-family: "Sevillana", cursive;
+    font-family: "Instrument Serif", serif;
     font-size: 1.1rem;
     font-weight: 700;
 }
@@ -303,6 +303,14 @@ iframe {
 }
 #subscribe-form button {
     width: 7rem;
+}
+
+/* Video Section */
+.video-section-container {
+    display: grid;
+    gap: 1rem;
+    place-items: center;
+    padding: 1rem;
 }
 
 /* Services Page */
