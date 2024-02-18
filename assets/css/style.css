@@ -503,6 +503,16 @@ iframe {
 /* -- custom Select -- 
 ** Code was taken from W3School example and slightly modified to fit site theme **
 */
+.combobox {
+    border: none;
+    outline: none;
+    height: 50px;
+    background-color: #ffffff;
+    color: var(--secondary-two);
+    padding-left: 0.5em;
+}
+
+
 .custom-select {
     position: relative;
     width: 100%;
