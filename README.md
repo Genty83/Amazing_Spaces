@@ -80,7 +80,7 @@ The colors used in the site are three different tones of brown (#F7F1F0 and #C3A
 
 ### Typography
 
-The main font used in the site is Instrument, with Sans Serif as the fallback font in case Instrument is not being imported correctly. Sevillana is used for the headings, with cursive as fallback. 
+The main font used in the site is Instrument, with Sans Serif as the fallback font in case Instrument is not being imported correctly. 
 
 ### Wireframes
 
@@ -90,7 +90,7 @@ Page | Desktop Version | Mobile Version
 --- | --- | ---
 Index | ![Desktop index wireframe image](README_images/Homepage-desktop-layout.png) | ![Mobile index wireframe image](README_images/Homepage-mobile-layout.png)
 Services | ![Desktop services wireframe image](README_images/services-desktop-layout.png) | ![Mobile services wireframe image](README_images/services-mobile-layout.png)
-About | ![Desktop about wireframe image]() | ![Mobile about wireframe image]()
+About | ![Desktop about wireframe image](README_images/about-desktop-wireframe.png) | ![Mobile about wireframe image](README_images/about-mobile-wireframe.png)
 Request Brochure | ![Desktop request brochure image](README_images/brochure-desktop-wireframe.png) | ![Mobile request brochure image](README_images/brochure-mobile-wireframe.png)
 
 [Back to top ⇧](#Amazing-Spaces)
@@ -257,9 +257,8 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
 
 * The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to validate all pages of the project in order to ensure there were no syntax errors.
 
-    - W3C Markup Validator found an error concerning headings not being included on the main and book now images. The section tag was replaced for a div tag to correct this. 
-    
-    - Another error found by W3C Markup Validator was concerning a percentage value used inside the iframe tag to declare the width property on the Book Now page. The width and height properties for the iframe were declared inside the CSS file instead.
+    - W3C Markup Validator found three small errors with name attributes on select elements which were corrected. 
+
 
     -  W3C CSS Validator found no errors or warnings on my CSS.
 
