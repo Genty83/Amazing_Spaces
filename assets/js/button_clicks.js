@@ -9,7 +9,6 @@
 const sideMenu = document.getElementById("side-menu");
 const sideMenuCloseIcon = document.getElementById("side-menu-close-icon");
 const menuIcon = document.getElementById("menu-icon");
-const brochureBtn = document.getElementById("brochure-btn");
 const servicesImgs = document.querySelectorAll('.services-img-container');
 
 
@@ -18,14 +17,12 @@ const servicesImgs = document.querySelectorAll('.services-img-container');
 // Event listeners
 sideMenuCloseIcon.addEventListener("click", openCloseSideMenu);
 menuIcon.addEventListener("click", openCloseSideMenu);
+
 servicesImgs.forEach(img => {
     img.addEventListener('click', function handleClick(event) {
         redirectToElement("about.html#contact-form")
     });
 });
-brochureBtn.addEventListener(
-    "click", (event) => redirectToElement("brochure.html#brochure-form"));
-
 
 
 // Function to redirect to another element

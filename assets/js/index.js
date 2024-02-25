@@ -23,3 +23,13 @@ function changeHeroBackground() {
     }
 
 setInterval(changeHeroBackground, 5000)
+
+const brochureBtn = document.getElementById("brochure-btn");
+brochureBtn.addEventListener("click", ()=> {
+    redirectToElement("brochure.html#brochure-form");
+});
+
+// Function to redirect to another element
+function redirectToElement(path) {
+    window.location = path;
+}
