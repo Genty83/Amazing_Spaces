@@ -22,9 +22,9 @@ The website targets an audience of new customers looking to design and renovate 
 2. [Features](#features)
     1. [General](#general)
     2. [Landing Page](#landing-page)
-    3. [Treatments Page](#services-page)
-    4. [Book Now Page](#about-page)
-    5. [404 Error Page](#request-brochure-page)
+    3. [Services Page](#services-page)
+    4. [About Page](#about-page)
+    5. [Request Brochure Page](#request-brochure-page)
  3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -369,14 +369,6 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
             - Clicking on the social media links will open the specific website on a new tab.
 
     - Treatments Page
-
-[Back to top ⇧](#Amazing-Spaces)
-
-
-## Finished Product
-
-Page | Desktop version | Mobile version
---- | --- | ---
 
 
 [Back to top ⇧](#Amazing-Spaces)
