@@ -390,7 +390,7 @@ Brochure | ![Desktop brochure page image](README_images/finished-prod-desktop-br
 
 ## Deployment
 
-* This website was developed using [GitPod](https://www.gitpod.io/), which was then committed and pushed to GitHub using the GitPod terminal.
+* This website was developed using [vscode](https://code.visualstudio.com/), which was then committed and pushed to GitHub using the GitPod terminal.
 
 ### GitHub Pages
 
