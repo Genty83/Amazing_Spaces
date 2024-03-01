@@ -9,7 +9,7 @@ They offer a wide variety of interior design services ranging from kitchen's to 
 The purpose of this website is to provide information on the services they provide, and it's contact options.
 The website targets an audience of new customers looking to design and renovate there homes.
 
-
+Visit the deployed website [here](https://genty83.github.io/Amazing_Spaces/).
 
 ## Table of Contents
 
@@ -259,8 +259,13 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
 
     - W3C Markup Validator found three small errors with name attributes on select elements which were corrected. 
 
+    - There was also a small error with the loading attribute on the iframe.
+
+    ![Markup Validator image](README_images/html-validator-img.png)
 
     -  W3C CSS Validator found no errors or warnings on my CSS.
+
+    ![W3C CSS Validator image](README_images/css-validator-img.png)
 
 ### Accessibility
 
@@ -368,10 +373,19 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
         
             - Clicking on the social media links will open the specific website on a new tab.
 
-    - Treatments Page
+            - Clicking on the site links will direct to the specified page.
 
 
 [Back to top ⇧](#Amazing-Spaces)
+
+## Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Home | ![Desktop home page image](README_images/finished-prod-desktop-homepage.png) | ![Mobile home page image](README_images/finished-prod-mobile-home-page.png)
+Services | ![Desktop services page image](README_images/finished-prod-desktop-services-page.png) | ![Mobile services page image](README_images/finished-prod-mobile-services-page.png)
+About | ![Desktop about page image](README_images/finished-prod-desktop-about-page.png) | ![Mobile about page image](README_images/finished-prod-mobile-about-page.png)
+Brochure | ![Desktop brochure page image](README_images/finished-prod-desktop-brochure-page.png) | ![Mobile brochure page image](README_images/finished-prod-mobile-brochure-page.png)
 
 
 ## Deployment
@@ -385,8 +399,6 @@ Request Brochure | ![Desktop request brochure image](README_images/brochure-desk
     1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
 
     2. At the top of the Repository, locate the Settings button on the menu.
-
-        - Alternatively click [here](https://raw.githubusercontent.com/) for a GIF demostration of the process.
 
     3. Scroll down the Settings page until you locate the Pages section.
 
